@@ -1,2 +1,35 @@
-# american-samoa-chinese-food
-A lightweight directory app for Chinese restaurants and Chinese-style fast food in American Samoa, built as a starter project.
+# 美属萨摩亚中餐馆与中式快餐馆
+
+这是一个基于 Next.js 的轻量全栈餐馆发现平台，适合展示和筛选美属萨摩亚地区的中餐馆与中式快餐馆。
+
+## 功能
+
+- 搜索餐馆名称、地址和菜系
+- 按类别筛选：中餐馆 / 中式快餐馆
+- 按城市筛选
+- 统一的餐馆列表页
+- API 接口：`/api/restaurants`
+
+## 本地运行
+
+```bash
+npm install
+npm run dev
+```
+
+打开浏览器访问：
+
+```text
+http://localhost:3000
+```
+
+## 目录结构
+
+- `app/`：前端页面和 API 路由
+- `components/`：客户端组件
+- `data/`：基础数据源（JSON）
+- `lib/`：通用数据读取逻辑
+
+## 说明
+
+当前版本使用 JSON 作为数据源，便于快速启动与本地开发。后续如果你需要接入真实数据库或地图服务，可以继续扩展。
